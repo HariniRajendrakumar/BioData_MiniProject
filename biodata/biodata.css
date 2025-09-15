@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Light gray background for contrast */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 20px auto; /* Added margin for vertical spacing */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px; /* Added padding below heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; /* Increased padding inside form */
+    margin: 0; /* Removed margin from form for consistent spacing */
+}
+
+label {
+    margin: 10px 0 5px;
+    padding-bottom: 5px; /* Added padding below label */
+}
+
+input, textarea {
+    padding: 15px; /* Adjusted padding for form controls */
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 12px 24px; /* Added horizontal padding for button */
+    background-color: #3691f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e6ab1; /* Changed to darker shade for hover */
+}
+
+button:active {
+    background-color: #2b5a9b; /* Even darker shade for active state */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3); /* Optional inset shadow */
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px; /* Added padding inside result div */
+    background-color: #f9f9f9; /* Light background for result message */
+    border: 1px solid #ddd; /* Border for better visibility */
+    border-radius: 4px; /* Rounded corners for result div */
+}
